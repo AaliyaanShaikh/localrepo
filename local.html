@@ -1,1 +1,27 @@
-<p>this is a local repo</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Companion Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="messages">
+            <div class="message companion-message">
+                Hello! I'm here to listen and support you.
+            </div>
+        </div>
+        <div id="input-area">
+            <textarea id="user-input" placeholder="Type your message..."></textarea>
+            <button id="send-button">Send</button>
+        </div>
+        <div id="guardrail-alert" class="hidden">
+            ⚠️ Your message was flagged by our safety system. Please be respectful.
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
